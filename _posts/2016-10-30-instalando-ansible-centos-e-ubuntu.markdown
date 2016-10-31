@@ -20,28 +20,38 @@ Aí é que está o grande diferencial do ansible, ele possui em seus arquivos de
 No CentOS é necessário instalar o epel, pois o epel possibilita encontrar os pacotes necessários para a instalação do ansible de forma fácil por linha de comando.
 Para instalar o epel utiliza-se o seguinte comando.
 
-> $ sudo yum install epel-release.noarch && sudo yum update
+{% highlight shell %}
+$ sudo yum install epel-release.noarch && sudo yum update
+{% endhighlight %}
 
 Dessa maneira após instalar o epel, já atualizamos também para que o epel baixe e atualize seus pacotes. Com o epel instalado e atualizado podemos instalar o Ansible utilizando o seguinte comando.
 
-> $ sudo yum install ansible
+{% highlight shell %}
+$ sudo yum install ansible
+{% endhighlight %}
 
 Podemos verificar a instalação do ansible utilizando o seguinte comando.
-
-> $ ansible --help
+{% highlight shell %}
+$ ansible --help
+{% endhighlight %}
 
 ### Ubuntu
 
 No Ubuntu é necessário adicionar o link do repositório para seja possivel encontrar os pacotes necessários para instalação do ansible, para adicionar o pacote utilizamos o seguinte comando.
 
-> $ sudo apt-get install software-properties-common && sudo apt-add-repository ppa:ansible/ansible
+{% highlight shell %}
+$ sudo apt-get install software-properties-common && sudo apt-add-repository ppa:ansible/ansible
+{% endhighlight %}
 
 Após instalar o common e adicionar o link do pacote do ansible ao sources.list do ubuntu precisamos atualizar os pacotes.
 
-> $ sudo apt-get update
+{% highlight shell %}
+$ sudo apt-get update
+{% endhighlight %}
 
 Com os pacotes atualizados, basta agora instalar o Ansible.
 
-> $ sudo apt-get install ansible
-
+{% highlight shell %}
+$ sudo apt-get install ansible
+{% endhighlight %}
  
