@@ -13,7 +13,7 @@ O Ansible é uma ferramenta no qual proporciona a automação de configurações
 
 Aí é que está o grande diferencial do ansible, ele possui em seus arquivos de configuração um inventário no qual devemos informar quais os hosts que queremos que o ansible execute alguma ação, em breve falarei mais detalhado de como o ansible trabalha com esses hosts.
 
-## Como instalo o Ansible na minha maquina? 
+## Como instalo o Ansible na minha maquina?
 
 ### CentOS
 
@@ -55,5 +55,3 @@ Com os pacotes atualizados, basta agora instalar o Ansible.
 {% highlight shell %}
 $ sudo apt-get install ansible
 {% endhighlight %}
-
- 
