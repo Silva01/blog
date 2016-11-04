@@ -56,7 +56,7 @@ Com os pacotes atualizados, basta agora instalar o Ansible.
 $ sudo apt-get install ansible
 {% endhighlight %}
 
-### **Debian**
+#### **Debian**
 
 Para instalar o Ansible no Debian, a forma é ainda mais simples do que no Ubuntu, basta inserir o seguinte comando no terminal.
 
@@ -64,7 +64,7 @@ Para instalar o Ansible no Debian, a forma é ainda mais simples do que no Ubunt
 $ sudo apt-get install ansible -y
 {% endhighlight %}
 
-### **FreeBSD**
+#### **FreeBSD**
 
 A instalação no FreeBSD também é bastante simples, apenas um comando é o suficiente para a instalação do Ansible. Para instalação do Ansible no FreeBSD é necessário o seguinte comando.
 
@@ -72,7 +72,7 @@ A instalação no FreeBSD também é bastante simples, apenas um comando é o su
 $ sudo pkg install ansible
 {% endhighlight %}
 
-### **Arch Linux**
+#### **Arch Linux**
 
 Para instalar o Ansible no Arch Linux, é necessário apenas executar o seguinte comando.
 
