@@ -5,7 +5,7 @@ date: 2016-11-06 21:42:00 -0300
 categories: Ansible
 ---
 
-####**Vamos Iniciar o Ansible ?**
+#### **Vamos Iniciar o Ansible ?**
 
 Agora que o Ansible foi instalado (acesse [aqui](http://danielsilva.net.br/2016/instalando-ansible-centos-e-ubuntu/) caso não tenha visto) já podemos realizar alguns testes para verificar se a instalação do ansible não ocorreu problemas.
 O ansible possui um inventário no qual ele utiliza para consultaros hosts no qual ele irá orquestrar. Este inventário possui um arquivo chamado hosts. É nesse arquivo que declaramos quais os hosts queremos que o Ansible orquestre.
