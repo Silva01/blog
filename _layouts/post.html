@@ -1,27 +1,17 @@
 ---
 layout: default
-comments: true
 ---
-
-<article class="content post">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-date">
-        <time>{{ page.date | date_to_string }}</time>
-        <span class="reading-time" title="Estimated read time"> - {{ minutesText }}</span>
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
     </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
 
+  <section class="post">
     {{ content }}
-
-    <div id="disqus_thread"></div>
-
-    <script>
-      (function() {
-        var d = document, s = d.createElement('script');
-        s.src = '//www-danielsilva-net-br.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+  </section>
+  <section id="disqus_thread"></section><!-- /#disqus_thread -->
 </article>
+{% if page.comments != false %}{% include disqus.html %}{% endif %}

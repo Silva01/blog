@@ -5,17 +5,17 @@ date: 2016-10-30 17:36:00 -0300
 categories: Ansible
 ---
 
-## O que é o Ansible ?
+#### **O que é o Ansible ?**
 
 O Ansible é uma ferramenta no qual proporciona a automação de configurações ou instalações em servidores na rede. Para se comunicar com esses servidores o ansible utiliza conexão remota por protocolo ssh.
 
-## Como o Ansible sabe o endereço das maquinas na rede?
+#### **Como o Ansible sabe o endereço das maquinas na rede?**
 
 Aí é que está o grande diferencial do ansible, ele possui em seus arquivos de configuração um inventário no qual devemos informar quais os hosts que queremos que o ansible execute alguma ação, em breve falarei mais detalhado de como o ansible trabalha com esses hosts.
 
-## Como instalo o Ansible na minha maquina?
+#### **Como instalo o Ansible na minha maquina?**
 
-### CentOS
+##### **CentOS**
 
 No CentOS é necessário instalar o epel, pois o epel possibilita encontrar os pacotes necessários para a instalação do ansible de forma fácil por linha de comando.
 Para instalar o epel utiliza-se o seguinte comando.
@@ -36,7 +36,7 @@ Podemos verificar a instalação do ansible utilizando o seguinte comando.
 $ ansible --help
 {% endhighlight %}
 
-### Ubuntu
+##### **Ubuntu**
 
 No Ubuntu é necessário adicionar o link do repositório para seja possivel encontrar os pacotes necessários para instalação do ansible, para adicionar o pacote utilizamos o seguinte comando.
 
