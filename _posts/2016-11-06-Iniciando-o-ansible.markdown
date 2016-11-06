@@ -8,7 +8,7 @@ categories: Ansible
 #### **Vamos Iniciar o Ansible ?**
 
 Agora que o Ansible foi instalado (acesse [aqui](http://danielsilva.net.br/2016/instalando-ansible-centos-e-ubuntu/) caso não tenha visto) já podemos realizar alguns testes para verificar se a instalação do ansible não ocorreu problemas.
-O ansible possui um inventário no qual ele utiliza para consultarmos hosts no qual ele irá orquestrar. Este inventário possui um arquivo chamado hosts. É nesse arquivo que declaramos quais os hosts queremos que o Ansible orquestre.
+O ansible possui um inventário no qual ele utiliza para consultar os hosts no qual ele irá orquestrar. Este inventário possui um arquivo chamado hosts. É nesse arquivo que declaramos quais os hosts queremos que o Ansible orquestre.
 O Ansible utiliza o protocolo **SSH** para se comunicar com um servidor (*Informado no arquivo de hosts*) então a forma que declaramos no arquivo de hosts quais os host o ansible irá acessar para que seja possível a orquestração, é bem parecido com uma conexão SSH simples.
 
 Pra começar, vamos realizar os testes na maquina local, desta forma vamos conseguir simular a execução de tarefas como se estivéssemos executando em servidores externos.
