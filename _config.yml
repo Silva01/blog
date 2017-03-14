@@ -16,8 +16,8 @@
 title: Daniel Silva Blog's
 email: silva20102@gmail.com
 description: "Blog para divulgação de novidades sobre Tecnologia"
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: 'http://danielsilva.net.br' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: 'http://www.danielsilva.net.br' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: daniel10_silva
 github_username:  silva01
 
@@ -31,3 +31,4 @@ exclude:
   - Gemfile.lock
 
 exclude: ['vendor']
+
