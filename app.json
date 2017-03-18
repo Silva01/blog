@@ -1,6 +1,6 @@
 {
-  "name": "Small Sharp Tool",
-  "description": "This app does one little thing, and does it well.",
+  "name": "Daniel Silva Blog's",
+  "description": "Blog para compartilhamento de informações sobre TI",
   "keywords": [
     "productivity",
     "HTML5",
@@ -13,7 +13,7 @@
   "scripts": {
     "web": "bundle exec jekyll build && bundle exec thin start -p$PORT -V"
   },
-  "image": "heroku/ruby",  
+  "image": "heroku/ruby",
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-ruby.git"
