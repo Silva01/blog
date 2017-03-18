@@ -1,0 +1,17 @@
+.demo-layout-transparent {
+  background: url('http://4.bp.blogspot.com/-RF0TY09su3A/ThdRLUW94aI/AAAAAAAACYs/hpMv55iugxs/s1600/montanha-em-paisagem-escura-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.imagem-icon {
+  width:100px;
+	height:100px;
+	position:absolute;
+	top:50%;
+	margin-top:-50px;
+	margin-left:-50px;
+}
