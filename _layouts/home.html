@@ -1,0 +1,74 @@
+---
+layout: home
+comments: true
+# other options
+---
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel Silva Blog's</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+
+    {% include nav.html %}
+
+    <div class="mdl-grid grid-home">
+        {% for post in site.posts %}
+
+            {% if post.identificador == 2 %}
+                <div class="mdl-cell mdl-cell--4-col margin-grid">
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title header-home-card-programacao">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="mdl-button mdl-js-button mdl-js-ripple-effect title-card-home">
+                                <strong>{{ post.title }}</strong>
+                            </a>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            {{ post.description }}
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <!-- Basic Chip -->
+                            <span class="mdl-chip badge-dev">
+                                <span class="mdl-chip__text">{{ post.categories }}</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="mdl-cell mdl-cell--4-col margin-grid">
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title header-home-card">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="mdl-button mdl-js-button mdl-js-ripple-effect title-card-home">
+                                <strong>{{ post.title }}</strong>
+                            </a>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            {{ post.description }}
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <!-- Basic Chip -->
+                            <span class="mdl-chip badge-infra">
+                                <span class="mdl-chip__text">{{ post.categories }}</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+
+        {% endfor %}
+    </div>
+
+
+    {% include footer.html %}
+
+
+
+
+    <!-- Meterial Design Lite -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>

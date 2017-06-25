@@ -2,7 +2,9 @@
 layout: post
 title: "Instalando o Ansible"
 date: 2016-10-30 17:36:00 -0300
-categories: Ansible
+categories: Infra
+description: "Tutorial básico de como instalar o Ansible e criar seu ambiente"
+identificador: 1
 ---
 
 #### **O que é o Ansible ?**
