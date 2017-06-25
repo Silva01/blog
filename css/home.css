@@ -1,0 +1,42 @@
+.home-nav {
+    background-color: #009926;
+}
+
+.margin-grid {
+    margin-top: 10%;
+}
+
+.title-card-home {
+    text-align: center;
+    color: white;
+}
+
+.header-home-card {
+    background-color: #0086B3;
+}
+
+.header-home-card-programacao {
+    background-color: #b60516;
+}
+
+.grid-home {
+    margin-left: 3%;
+}
+
+.footer-home {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #009926;
+    color: white;
+}
+
+.badge-infra {
+    color: white;
+    background-color: #0086B3;
+}
+
+.badge-dev {
+    color: white;
+    background-color: #b60516;
+}

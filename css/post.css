@@ -1,0 +1,57 @@
+.conteudo, p{
+    color: #555555;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.50rem;
+    font-weight: 300;
+    width: auto;
+    max-width: 50rem;
+    line-height: 2;
+    letter-spacing: .01rem;
+    padding: 0 1.25rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+}
+
+.titulo-infra{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    background-color: #0086B3;
+    min-height: 31.25rem;
+    width: 100%;
+}
+
+.titulo-dev{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    background-color: #b30f13;
+    min-height: 31.25rem;
+    width: 100%;
+}
+
+#titulo {
+    height: 60%;
+}
+
+.titulo-post {
+    margin: auto;
+    max-width: 50rem;
+    padding: 8.75rem 0 4.125rem;
+}
+
+.titulo-post h1 {
+    font-size: 4rem;
+}
+
+.home-nav {
+    background-color: #009926;
+}
