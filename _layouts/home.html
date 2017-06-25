@@ -17,7 +17,7 @@ comments: true
     {% include nav.html %}
 
     <div class="mdl-grid grid-home">
-        {% for post in site.posts %}
+        {% for post in site.posts reversed %}
 
             {% if post.identificador == 2 %}
                 <div class="mdl-cell mdl-cell--4-col margin-grid">

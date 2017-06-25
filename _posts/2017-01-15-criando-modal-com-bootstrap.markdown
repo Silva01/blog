@@ -23,87 +23,28 @@ Modal são janelas suspensas no qual são muito utilizadas para mostrar alertas 
 Para que seja necessario criar um modal em bootstrap, antes precisamos carregar o CSS do bootstrap, o javascript do Jquery e o javascript do bootstrap.
 
 
-
-```text
 Para que o bootstrap funcione de forma correta, a seguinte ordem deverá
 ser seguida para que o carregamento do javascript aconteça de forma correta
 
 1. Javascript do Jquery
 2. Javascript do Bootstrap
-```
+
 
 ## HTML
 
 Vamos ao código para a criação de um modal utilizando o Bootstrap, primeiro vamos criar nossa página HTML.
 
 
-```html
-<html>
-  <head>
-    <tittle>Exemplo</tittle>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-
-  </head>
-  <body>
-    <button class="btn btn-primary" id="criar-modal">Acionar Modal</button>
-    <div class="modal" id="modal-alerta">
-    <div class="modal-dialog">
-    <div class="modal-content">
-    <!-- Cabeçalho do Modal -->
-    <div class="modal-header">
-      <h2>Apresentando Modal</h2>
-    </div>
-    <!-- Corpo do Modal -->
-    <div class="modal-body">
-      <p>Mostrando Modal em BootStrap</p>
-    </div>
-    <!-- Rodapé do Modal -->
-    <div class="modal-footer">
-      <button class="btn btn-danger" data-dismiss="modal">Fechar Modal</button>
-    </div>
-    </div>
-    </div>
-    </div>
-  </body>
-</html>
-```
+<script src="https://gist.github.com/Silva01/81bb885cdb7de20cb7ea1a1430689ce9.js"></script>
 
 Esse é um HTML bem básico, sua estrutura é composta por um botão no qual quando for clicado irá executar uma ação de abrir o modal.
 
 Abaixo como podemos destacar temos o modal.
 
 
+<script src="https://gist.github.com/Silva01/b50840f01003c1d510cc070e0f194435.js"></script>
 
-```html
-<div class="modal" id="modal-alerta">
-  <div class="modal-dialog">
-    <div class="modal-content">
 
-      <!-- Cabeçalho do Modal -->
-      <div class="modal-header">
-        <h2>Apresentando Modal</h2>
-      </div>
-
-      <!-- Corpo do Modal -->
-      <div class="modal-body">
-        <p>Mostrando Modal em BootStrap</p>
-      </div>
-
-      <!-- Rodapé do Modal -->
-      <div class="modal-footer">
-        <button class="btn btn-danger" data-dismiss="modal">Fechar Modal</button>
-      </div>
-    </div>
-  </div>
-</div>
-```
 Neste modal temos uma `div` principal no qual é obrigatória para a criação do modal, como necessário para a criação do modal, esta `div` chama no _CSS_ do Bootstrap a classe **modal** responsável por montar a estrutura do modal, também definimos um **id** para que possamos manipular esse modal via javascript.
 
 Dentro da `div` principal podemos observar duas outras **divs** que são obrigatórias para a criação do modal, essas **divs** chamam no _CSS_ do bootstrap as classes **modal-dialog** e **modal-content**.
@@ -123,13 +64,7 @@ Após Criado o HTML para a criação do Modal, vamos criar um arquivo javascript
 
 
 
-```javascript
-$(function(){
-  $("#criar-modal").click(function(){
-    $("#modal-alerta").modal();
-  });
-});
-```
+<script src="https://gist.github.com/Silva01/5734d28c960f480db91408fa2a2ebdc0.js"></script>
 
 O Javascript é bem simples e de fácil leitura, nele temos um javascript com uma função, essa função é executada ao clicar no botão responsável por abrir o modal.
 
