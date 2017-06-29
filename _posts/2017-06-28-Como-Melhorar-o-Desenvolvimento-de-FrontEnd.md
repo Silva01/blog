@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Como Melhorar o Desenvolvimento de FrontEnd"
-date: 2016-06-28 22:43:00 -0300
-categories: Dev
-description: "O Desafio para quem desenvolve é desenvolver de forma fácil e divertida"
+title: "FrontEnd com Yeoman"
+date: 2017-06-28 22:43:00 -0300
+categories: Programação
+description: "O Desafio para quem desenvolve, é desenvolver de forma fácil e divertida"
 identificador: 2
 ---
 
-Olá pessoal, estava um pouco sumido das postagens ultimamente (e coloque tempo nisso) que resolvi escrever um post para falar sobre o Yeoman, uma ferramenta incrível para a geração de esqueletos de forma automatizada, deixo para vocês a [link](http://yeoman.io) para conferir na página do Yeoman a quantidade de geradores que é possível obter e utilizar.
+
+Olá pessoal, estava um pouco sumido das postagens ultimamente (e coloque tempo nisso) que resolvi escrever um post para falar sobre o Yeoman, uma ferramenta incrível para a geração de esqueletos de forma automatizada, deixo para vocês o [link](http://yeoman.io) para conferir na página do Yeoman a quantidade de geradores que é possível obter e utilizar.
 
 ### Yeoman
 
