@@ -18,13 +18,21 @@ comments: true
         {% for post in site.posts %}
 
         <div class="container-home">
-            <a href="{{ post.url }}">
-                <h3 class="titulo-card">
-                    {{ post.title }}
-                </h3>
-            </a>
 
-            <p class="conteudo">{{ post.description }}</p>
+            <div class="ribbon"><span>{{ post.categories }}</span></div>
+
+            <div class="box-body">
+                <a class="titulo-link-card" href="{{ post.url }}">
+                    <h3 class="titulo-card">
+                        {{ post.title }}
+                    </h3>
+                </a>
+
+                <p class="conteudo">{{ post.description }}</p>
+
+                <span class="tag-card"><a class="link-categorias" href="/">{{ post.categories }}</a></span>
+            </div>
+
         </div>
 
         <!--{% if post.identificador == 2 %}-->
