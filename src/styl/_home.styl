@@ -44,30 +44,72 @@ main .container-home
   border 1px solid cor-verde
   position relative
 
-.tag-card
+.tag-card-dev
   font-family "Open Sans" sans-serif
   border 2px solid cor-verde
   border-radius .365rem
   padding .254rem
   margin 1rem
 
-.link-categorias
+.tag-card-infra
+  font-family "Open Sans" sans-serif
+  border 2px solid cor-vermelha
+  border-radius .365rem
+  padding .254rem
+  margin 1rem
+
+.tag-card-dev:hover
+  background cor-verde
+
+.link-categorias-dev:hover
+  color white
+  padding 2rem
+  text-decoration none
+
+.tag-card-infra:hover
+  background cor-vermelha
+
+.link-categorias-infra:hover
+  color white
+  padding 2rem
+  text-decoration none
+
+.link-categorias-dev
   color cor-verde
   padding 2rem
   text-decoration none
 
-main .container-home .titulo-link-card
+.link-categorias-infra
+  color cor-vermelha
+  padding 2rem
+  text-decoration none
+
+main .container-home .titulo-link-card-dev
   font-style normal
   text-decoration none
 
-main .container-home .titulo-card
+main .container-home .titulo-link-card-infra
+  font-style normal
+  text-decoration none
+
+main .container-home .titulo-card-dev
   margin .313rem 0 .938rem
   text-align justify
   font-size 1.620rem
   font-family 'Open Sans' sans-serif
   font-weight 800
   font-style normal
-  color #ad1818
+  color cor-verde
+  padding 1rem
+
+main .container-home .titulo-card-infra
+  margin .313rem 0 .938rem
+  text-align justify
+  font-size 1.620rem
+  font-family 'Open Sans' sans-serif
+  font-weight 800
+  font-style normal
+  color cor-vermelha
   padding 1rem
 
 
@@ -87,7 +129,7 @@ footer
   text-align justify
   padding 1.562rem
 
-.ribbon
+.ribbon-dev
   position absolute
   right -5px
   top -5px
@@ -113,7 +155,35 @@ footer
     top 19px
     right -21px
 
-.ribbon span::before
+
+.ribbon-infra
+  position absolute
+  right -5px
+  top -5px
+  z-index 1
+  overflow hidden
+  width 75px
+  height 75px
+  text-align right
+  span
+    font-size 15px
+    font-weight bold
+    color white
+    text-transform uppercase
+    text-align center
+    line-height 20px
+    transform rotate(45deg)
+    -webkit-transform rotate(45deg)
+    width 100px
+    display block
+    background cor-vermelha
+    box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
+    position absolute
+    top 19px
+    right -21px
+
+
+.ribbon-dev span::before
   content ""
   position absolute
   left 0px
@@ -124,7 +194,18 @@ footer
   border-bottom 3px solid transparent
   border-top 3px solid cor-verde
 
-.ribbon span::after
+.ribbon-infra span::before
+  content ""
+  position absolute
+  left 0px
+  top 100%
+  z-index -1
+  border-left 3px solid cor-vermelha
+  border-right 3px solid transparent
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-vermelha
+
+.ribbon-dev span::after
   content ""
   position absolute
   right 0px
@@ -134,6 +215,18 @@ footer
   border-right 3px solid cor-verde
   border-bottom 3px solid transparent
   border-top 3px solid cor-verde
+
+
+.ribbon-infra span::after
+  content ""
+  position absolute
+  right 0px
+  top 100%
+  z-index -1
+  border-left 3px solid transparent
+  border-right 3px solid cor-vermelha
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-vermelha
 
 .box-body
   margin-top 4rem

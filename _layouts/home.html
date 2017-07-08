@@ -19,70 +19,26 @@ comments: true
 
         <div class="container-home">
 
-            <div class="ribbon"><span>{{ post.categories }}</span></div>
+            <div class="ribbon-{{ post.categories }}"><span>{{ post.categories }}</span></div>
 
             <div class="box-body">
-                <a class="titulo-link-card" href="{{ post.url }}">
-                    <h3 class="titulo-card">
+                <a class="titulo-link-card-{{ post.categories }}" href="{{ post.url }}">
+                    <h3 class="titulo-card-{{ post.categories }}">
                         {{ post.title }}
                     </h3>
                 </a>
 
                 <p class="conteudo">{{ post.description }}</p>
 
-                <span class="tag-card"><a class="link-categorias" href="/">{{ post.categories }}</a></span>
+                <span class="tag-card-{{ post.categories }}"><a class="link-categorias-{{ post.categories }}" href="/">{{ post.categories }}</a></span>
             </div>
 
         </div>
 
-        <!--{% if post.identificador == 2 %}-->
-        <!--<div class="mdl-cell mdl-cell&#45;&#45;4-col margin-grid">-->
-        <!--<div class="demo-card-wide mdl-card mdl-shadow&#45;&#45;2dp">-->
-        <!--<div class="mdl-card__title header-home-card-programacao">-->
-        <!--<a href="{{ site.baseurl }}{{ post.url }}" class="mdl-button mdl-js-button mdl-js-ripple-effect title-card-home">-->
-        <!--<strong>{{ post.title }}</strong>-->
-        <!--</a>-->
-        <!--</div>-->
-        <!--<div class="mdl-card__supporting-text">-->
-        <!--{{ post.description }}-->
-        <!--</div>-->
-        <!--<div class="mdl-card__actions mdl-card&#45;&#45;border">-->
-        <!--&lt;!&ndash; Basic Chip &ndash;&gt;-->
-        <!--<span class="mdl-chip badge-dev">-->
-        <!--<span class="mdl-chip__text">{{ post.categories }}</span>-->
-        <!--</span>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--{% else %}-->
-        <!--<div class="mdl-cell mdl-cell&#45;&#45;4-col margin-grid">-->
-        <!--<div class="demo-card-wide mdl-card mdl-shadow&#45;&#45;2dp">-->
-        <!--<div class="mdl-card__title header-home-card">-->
-        <!--<a href="{{ site.baseurl }}{{ post.url }}" class="mdl-button mdl-js-button mdl-js-ripple-effect title-card-home">-->
-        <!--<strong>{{ post.title }}</strong>-->
-        <!--</a>-->
-        <!--</div>-->
-        <!--<div class="mdl-card__supporting-text">-->
-        <!--{{ post.description }}-->
-        <!--</div>-->
-        <!--<div class="mdl-card__actions mdl-card&#45;&#45;border">-->
-        <!--&lt;!&ndash; Basic Chip &ndash;&gt;-->
-        <!--<span class="mdl-chip badge-infra">-->
-        <!--<span class="mdl-chip__text">{{ post.categories }}</span>-->
-        <!--</span>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--{% endif %}-->
-
         {% endfor %}
     </main>
 
-
-
-
     {% include footer.html %}
-
 
 </body>
 </html>
