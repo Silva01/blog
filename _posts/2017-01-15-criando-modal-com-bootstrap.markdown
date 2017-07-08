@@ -2,7 +2,7 @@
 layout: post
 title: "Criando Modal com Bootstrap"
 date: 2017-01-15 12:03:00 -0300
-categories: Dev
+categories: dev
 description: "Tutorial que ensina a criar Modais básicas com Bootstrap"
 identificador: 2
 ---

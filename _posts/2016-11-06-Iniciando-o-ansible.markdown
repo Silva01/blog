@@ -2,7 +2,7 @@
 layout: post
 title: "Testando o Ansible"
 date: 2016-11-06 21:42:00 -0300
-categories: Infra
+categories: infra
 description: "Tutorial básico de como utilizar pela primeira vez o ansible"
 identificador: 1
 ---
