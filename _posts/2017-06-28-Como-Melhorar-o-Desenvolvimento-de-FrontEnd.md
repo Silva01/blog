@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FrontEnd com Yeoman"
+title: "Geradores com Yeoman"
 date: 2017-06-28 22:43:00 -0300
 categories: js
 description: "O Desafio para quem desenvolve, é desenvolver de forma fácil e divertida"
