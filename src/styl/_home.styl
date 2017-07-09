@@ -1,6 +1,10 @@
 
-cor-verde = #00875c
-cor-vermelha = #870115
+cor-dev = #00875c
+cor-infra = #870115
+cor-js = #bb7100
+cor-css = #0155dc
+cor-devops = #f24a06
+cor-miscelaneos = #8c007d
 
 html
   position relative
@@ -27,7 +31,7 @@ h1
 div h1 a
   font-style normal
   text-decoration none
-  color cor-verde
+  color cor-dev
 
 main
   center(1200px)
@@ -41,25 +45,53 @@ main .container-home
   margin-left 5rem
   margin-bottom 5rem
   background-color #ffffff
-  border 1px solid cor-verde
+  border 1px solid cor-dev
   position relative
 
 .tag-card-dev
   font-family "Open Sans" sans-serif
-  border 2px solid cor-verde
+  border 2px solid cor-dev
   border-radius .365rem
   padding .254rem
   margin 1rem
 
 .tag-card-infra
   font-family "Open Sans" sans-serif
-  border 2px solid cor-vermelha
+  border 2px solid cor-infra
+  border-radius .365rem
+  padding .254rem
+  margin 1rem
+
+.tag-card-js
+  font-family "Open Sans" sans-serif
+  border 2px solid cor-js
+  border-radius .365rem
+  padding .254rem
+  margin 1rem
+
+.tag-card-css
+  font-family "Open Sans" sans-serif
+  border 2px solid cor-css
+  border-radius .365rem
+  padding .254rem
+  margin 1rem
+
+.tag-card-devops
+  font-family "Open Sans" sans-serif
+  border 2px solid cor-devops
+  border-radius .365rem
+  padding .254rem
+  margin 1rem
+
+.tag-card-misc
+  font-family "Open Sans" sans-serif
+  border 2px solid cor-miscelaneos
   border-radius .365rem
   padding .254rem
   margin 1rem
 
 .tag-card-dev:hover
-  background cor-verde
+  background cor-dev
 
 .link-categorias-dev:hover
   color white
@@ -67,20 +99,72 @@ main .container-home
   text-decoration none
 
 .tag-card-infra:hover
-  background cor-vermelha
+  background cor-infra
 
 .link-categorias-infra:hover
   color white
   padding 2rem
   text-decoration none
 
+.tag-card-js:hover
+  background cor-js
+
+.link-categorias-js:hover
+  color white
+  padding 2rem
+  text-decoration none
+
+.tag-card-css:hover
+  background cor-css
+
+.link-categorias-css:hover
+  color white
+  padding 2rem
+  text-decoration none
+
+.tag-card-devops:hover
+  background cor-devops
+
+.link-categorias-devops:hover
+  color white
+  padding 2rem
+  text-decoration none
+
+.tag-card-misc:hover
+  background cor-miscelaneos
+
+.link-categorias-misc:hover
+  color white
+  padding 2rem
+  text-decoration none
+
 .link-categorias-dev
-  color cor-verde
+  color cor-dev
   padding 2rem
   text-decoration none
 
 .link-categorias-infra
-  color cor-vermelha
+  color cor-infra
+  padding 2rem
+  text-decoration none
+
+.link-categorias-js
+  color cor-js
+  padding 2rem
+  text-decoration none
+
+.link-categorias-css
+  color cor-css
+  padding 2rem
+  text-decoration none
+
+.link-categorias-devops
+  color cor-devops
+  padding 2rem
+  text-decoration none
+
+.link-categorias-misc
+  color cor-miscelaneos
   padding 2rem
   text-decoration none
 
@@ -92,6 +176,22 @@ main .container-home .titulo-link-card-infra
   font-style normal
   text-decoration none
 
+main .container-home .titulo-link-card-js
+  font-style normal
+  text-decoration none
+
+main .container-home .titulo-link-card-css
+  font-style normal
+  text-decoration none
+
+main .container-home .titulo-link-card-devops
+  font-style normal
+  text-decoration none
+
+main .container-home .titulo-link-card-misc
+  font-style normal
+  text-decoration none
+
 main .container-home .titulo-card-dev
   margin .313rem 0 .938rem
   text-align justify
@@ -99,7 +199,7 @@ main .container-home .titulo-card-dev
   font-family 'Open Sans' sans-serif
   font-weight 800
   font-style normal
-  color cor-verde
+  color cor-dev
   padding 1rem
 
 main .container-home .titulo-card-infra
@@ -109,7 +209,47 @@ main .container-home .titulo-card-infra
   font-family 'Open Sans' sans-serif
   font-weight 800
   font-style normal
-  color cor-vermelha
+  color cor-infra
+  padding 1rem
+
+main .container-home .titulo-card-js
+  margin .313rem 0 .938rem
+  text-align justify
+  font-size 1.620rem
+  font-family 'Open Sans' sans-serif
+  font-weight 800
+  font-style normal
+  color cor-js
+  padding 1rem
+
+main .container-home .titulo-card-css
+  margin .313rem 0 .938rem
+  text-align justify
+  font-size 1.620rem
+  font-family 'Open Sans' sans-serif
+  font-weight 800
+  font-style normal
+  color cor-css
+  padding 1rem
+
+main .container-home .titulo-card-devops
+  margin .313rem 0 .938rem
+  text-align justify
+  font-size 1.620rem
+  font-family 'Open Sans' sans-serif
+  font-weight 800
+  font-style normal
+  color cor-devops
+  padding 1rem
+
+main .container-home .titulo-card-misc
+  margin .313rem 0 .938rem
+  text-align justify
+  font-size 1.620rem
+  font-family 'Open Sans' sans-serif
+  font-weight 800
+  font-style normal
+  color cor-miscelaneos
   padding 1rem
 
 
@@ -117,7 +257,7 @@ footer
   position absolute
   bottom 0
   width 100%
-  background-color cor-verde
+  background-color cor-dev
   font-family sans-serif
   color white
   text-align center
@@ -149,7 +289,7 @@ footer
     -webkit-transform rotate(45deg)
     width 100px
     display block
-    background cor-verde
+    background cor-dev
     box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
     position absolute
     top 19px
@@ -176,12 +316,119 @@ footer
     -webkit-transform rotate(45deg)
     width 100px
     display block
-    background cor-vermelha
+    background cor-infra
     box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
     position absolute
     top 19px
     right -21px
 
+
+.ribbon-js
+  position absolute
+  right -5px
+  top -5px
+  z-index 1
+  overflow hidden
+  width 75px
+  height 75px
+  text-align right
+  span
+    font-size 15px
+    font-weight bold
+    color white
+    text-transform uppercase
+    text-align center
+    line-height 20px
+    transform rotate(45deg)
+    -webkit-transform rotate(45deg)
+    width 100px
+    display block
+    background cor-js
+    box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
+    position absolute
+    top 19px
+    right -21px
+
+
+.ribbon-css
+  position absolute
+  right -5px
+  top -5px
+  z-index 1
+  overflow hidden
+  width 75px
+  height 75px
+  text-align right
+  span
+    font-size 15px
+    font-weight bold
+    color white
+    text-transform uppercase
+    text-align center
+    line-height 20px
+    transform rotate(45deg)
+    -webkit-transform rotate(45deg)
+    width 100px
+    display block
+    background cor-css
+    box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
+    position absolute
+    top 19px
+    right -21px
+
+
+.ribbon-devops
+  position absolute
+  right -5px
+  top -5px
+  z-index 1
+  overflow hidden
+  width 75px
+  height 75px
+  text-align right
+  span
+    font-size 15px
+    font-weight bold
+    color white
+    text-transform uppercase
+    text-align center
+    line-height 20px
+    transform rotate(45deg)
+    -webkit-transform rotate(45deg)
+    width 100px
+    display block
+    background cor-devops
+    box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
+    position absolute
+    top 19px
+    right -21px
+
+
+.ribbon-misc
+  position absolute
+  right -5px
+  top -5px
+  z-index 1
+  overflow hidden
+  width 75px
+  height 75px
+  text-align right
+  span
+    font-size 15px
+    font-weight bold
+    color white
+    text-transform uppercase
+    text-align center
+    line-height 20px
+    transform rotate(45deg)
+    -webkit-transform rotate(45deg)
+    width 100px
+    display block
+    background cor-miscelaneos
+    box-shadow 0 3px 10px -5px rgba(0, 0, 0, 1)
+    position absolute
+    top 19px
+    right -21px
 
 .ribbon-dev span::before
   content ""
@@ -189,10 +436,10 @@ footer
   left 0px
   top 100%
   z-index -1
-  border-left 3px solid cor-verde
+  border-left 3px solid cor-dev
   border-right 3px solid transparent
   border-bottom 3px solid transparent
-  border-top 3px solid cor-verde
+  border-top 3px solid cor-dev
 
 .ribbon-infra span::before
   content ""
@@ -200,10 +447,55 @@ footer
   left 0px
   top 100%
   z-index -1
-  border-left 3px solid cor-vermelha
+  border-left 3px solid cor-infra
   border-right 3px solid transparent
   border-bottom 3px solid transparent
-  border-top 3px solid cor-vermelha
+  border-top 3px solid cor-infra
+
+.ribbon-js span::before
+  content ""
+  position absolute
+  left 0px
+  top 100%
+  z-index -1
+  border-left 3px solid cor-js
+  border-right 3px solid transparent
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-js
+
+.ribbon-css span::before
+  content ""
+  position absolute
+  left 0px
+  top 100%
+  z-index -1
+  border-left 3px solid cor-css
+  border-right 3px solid transparent
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-css
+
+.ribbon-devops span::before
+  content ""
+  position absolute
+  left 0px
+  top 100%
+  z-index -1
+  border-left 3px solid cor-devops
+  border-right 3px solid transparent
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-devops
+
+.ribbon-misc span::before
+  content ""
+  position absolute
+  left 0px
+  top 100%
+  z-index -1
+  border-left 3px solid cor-miscelaneos
+  border-right 3px solid transparent
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-miscelaneos
+
 
 .ribbon-dev span::after
   content ""
@@ -212,9 +504,9 @@ footer
   top 100%
   z-index -1
   border-left 3px solid transparent
-  border-right 3px solid cor-verde
+  border-right 3px solid cor-dev
   border-bottom 3px solid transparent
-  border-top 3px solid cor-verde
+  border-top 3px solid cor-dev
 
 
 .ribbon-infra span::after
@@ -224,9 +516,53 @@ footer
   top 100%
   z-index -1
   border-left 3px solid transparent
-  border-right 3px solid cor-vermelha
+  border-right 3px solid cor-infra
   border-bottom 3px solid transparent
-  border-top 3px solid cor-vermelha
+  border-top 3px solid cor-infra
+
+.ribbon-js span::after
+  content ""
+  position absolute
+  right 0px
+  top 100%
+  z-index -1
+  border-left 3px solid transparent
+  border-right 3px solid cor-js
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-js
+
+.ribbon-css span::after
+  content ""
+  position absolute
+  right 0px
+  top 100%
+  z-index -1
+  border-left 3px solid transparent
+  border-right 3px solid cor-css
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-css
+
+.ribbon-devops span::after
+  content ""
+  position absolute
+  right 0px
+  top 100%
+  z-index -1
+  border-left 3px solid transparent
+  border-right 3px solid cor-devops
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-devops
+
+.ribbon-misc span::after
+  content ""
+  position absolute
+  right 0px
+  top 100%
+  z-index -1
+  border-left 3px solid transparent
+  border-right 3px solid cor-miscelaneos
+  border-bottom 3px solid transparent
+  border-top 3px solid cor-miscelaneos
 
 .box-body
   margin-top 4rem

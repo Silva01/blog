@@ -2,7 +2,7 @@
 layout: post
 title: "FrontEnd com Yeoman"
 date: 2017-06-28 22:43:00 -0300
-categories: dev
+categories: js
 description: "O Desafio para quem desenvolve, é desenvolver de forma fácil e divertida"
 identificador: 2
 ---
