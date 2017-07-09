@@ -13,7 +13,7 @@ layout: default
 
     {% include nav.html %}
 
-    <header {% if page.identificador == 1 %} class="titulo-infra" {% else %} class="titulo-dev" {% endif %}>
+    <header class="header-post-{{ page.categories }}">
         <div class="titulo-post">
             {% assign m = page.date | date: "%-m" %}
             {{ page.date | date: "%-d" }}
@@ -33,6 +33,7 @@ layout: default
             {% endcase %}
             {{ page.date | date: "%Y" }}
             <h1>{{ page.title }}</h1>
+
         </div>
     </header>
 

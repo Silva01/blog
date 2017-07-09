@@ -69,10 +69,10 @@ Após Criado o HTML para a criação do Modal, vamos criar um arquivo javascript
 O Javascript é bem simples e de fácil leitura, nele temos um javascript com uma função, essa função é executada ao clicar no botão responsável por abrir o modal.
 
 
-```javascript
-$("#modal-alerta").modal();
+{% highlight javascript %}
+    $("#modal-alerta").modal();
+{% endhighlight %}
 
-```
 Nesta linha temos simplesmente o cara responsável por abrir o modal, ele chama a `div` principal no qual definimos o `id=modal-alerta`, então ao clicar no botão acionar modal, ele ativará o evento responsável por abrir o modal, podemos observar que esse evento chama a classe `modal()` no qual está inserida dentro do javascript do **bootstrap** e tem o papel de executar o modal.
 
 Então ficamos nos perguntando, beleza, o javascript acima ele abre o modal, e pra fechar o modal ?
