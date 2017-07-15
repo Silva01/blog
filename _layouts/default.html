@@ -7,15 +7,13 @@ layout: default
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <link rel="stylesheet" href="../../../../css/post.css">
+    <link rel="stylesheet" href="../../../../assets/css/main.css">
 </head>
 <body>
 
     {% include nav.html %}
 
-    <header {% if page.identificador == 1 %} class="titulo-infra" {% else %} class="titulo-dev" {% endif %}>
+    <header class="header-post-{{ page.categories }}">
         <div class="titulo-post">
             {% assign m = page.date | date: "%-m" %}
             {{ page.date | date: "%-d" }}
@@ -35,6 +33,7 @@ layout: default
             {% endcase %}
             {{ page.date | date: "%Y" }}
             <h1>{{ page.title }}</h1>
+
         </div>
     </header>
 
@@ -42,6 +41,6 @@ layout: default
         {{ content }}
     </article>
 
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    {% include footer.html %}
 </body>
 </html>
