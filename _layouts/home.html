@@ -9,6 +9,7 @@ comments: true
     <meta charset="UTF-8">
     <title>Daniel Silva Blog's</title>
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
 </head>
 <body>
 
@@ -17,7 +18,7 @@ comments: true
     <main>
         {% for post in site.posts %}
 
-        <div class="container-home">
+        <div class="container-home animated bounce">
 
             <div class="ribbon-{{ post.categories }}"><span>{{ post.categories }}</span></div>
 
