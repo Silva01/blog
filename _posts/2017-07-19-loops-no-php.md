@@ -88,7 +88,7 @@ No exemplo acima, adicionamos a função **count()** cuja a função é contar q
   $contador = 0;
   
   while($contador < count($fotos)){
-    echo fotos[$contador];
+    echo $fotos[$contador];
     $contador++;
   } 
 
