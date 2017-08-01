@@ -9,7 +9,7 @@ identificador: 1
 
 ## O Que são Loops ?
 
-Olá pessoal, hoje vamos falar de loops no PHP, o que são loops? Loops é uma forma de repetir um trecho quantas vezes for necessário, vamos imaginar que precisamos exibir uma lista de fotos, em vez de exibir essa fotos na mão podemos exibir essas fotos por meio de um loop, pois dependendo da quantidade se torna inviável digitar todos os trechos que irá exiir as fotos. Vamos ao exemplo.
+Olá pessoal, hoje vamos falar de loops no PHP, o que são loops? Loops é uma forma de repetir um trecho quantas vezes for necessário, vamos imaginar que precisamos exibir uma lista de fotos, em vez de exibir essa fotos na mão podemos exibir essas fotos por meio de um loop, pois dependendo da quantidade se torna inviável digitar todos os trechos que irá exibir as fotos. Vamos ao exemplo.
 
 {% highlight php %}
 <?php
