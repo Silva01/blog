@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Crie seu próprio git com gogs, nginx e docker"
+title: "DevOps com gogs, nginx e docker"
 date: 2018-01-14 17:40:00 -0300
 categories: devops
-description: "Criando seu próprio GitHub"
+description: "Criando seu próprio GitHub com gogs, nginx e docker"
 identificador: 1
 ---
 
