@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "DevOps com gogs, nginx e docker"
+title: "Tenha seu GitHub Particular"
 date: 2018-01-14 17:40:00 -0300
-categories: devops
+categories: infra
 description: "Criando seu próprio GitHub com gogs, nginx e docker"
 identificador: 1
 ---
