@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Váriaveis no ES6"
-date: 2018-03-13 21:00:00 -0300 <!--TODO Mudar para data de publicação-->
+date: 2018-03-13 23:00:00 -0300
 categories: js
 description: "Usando let, const e var"
 identificador: 1
