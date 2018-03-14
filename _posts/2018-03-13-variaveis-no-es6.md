@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Váriaveis no ES6"
+title: "Variáveis no ES6"
 date: 2018-03-13 23:00:00 -0300
 categories: js
 description: "Usando let, const e var"
