@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trabalhando com Typescript e Require JS"
-date: 2018-03-17 23:00:00
+date: 2018-03-16 23:00:00
 categories: dev
 description: "Iniciando com Typescript"
 identificador: 1
