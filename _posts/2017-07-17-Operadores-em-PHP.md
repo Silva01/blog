@@ -106,7 +106,7 @@ A divisão é utilizada para dividir um valor por outro, no PHP este operador é
   
   echo $div;
   
-  /* O Valor exibido será => 5 */
+  /* O Valor exibido será => 2 */
 
 {% endhighlight %}
 
